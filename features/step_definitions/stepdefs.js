@@ -31,11 +31,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //    ? Given estoy en el feed de la aplicación
 //        Undefined. Implement with the following snippet:
 
-         Given('estoy en el feed de la aplicación', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
 //    ? When no presiono el botón de crear favor
 //        Undefined. Implement with the following snippet:
 
@@ -83,11 +78,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //    ? Given estoy en el formulario para publicar un favor
 //        Undefined. Implement with the following snippet:
 
-         Given('estoy en el formulario para publicar un favor', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
 //    ? When no escribo una descripción para el favor
 //        Undefined. Implement with the following snippet:
 
@@ -109,11 +99,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //    ? Given estoy en el formulario para publicar un favor
 //        Undefined. Implement with the following snippet:
 
-         Given('estoy en el formulario para publicar un favor', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
 //    ? When no selecciono una categoría
 //        Undefined. Implement with the following snippet:
 
@@ -125,20 +110,9 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //    ? Then la aplicación no me permite publicar el favor
 //        Undefined. Implement with the following snippet:
 
-         Then('la aplicación no me permite publicar el favor', function () { 
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
-
 // 6) Scenario: En el que seleccion varias categorías # features\publicarFavor.feature:29
 //    ? Given estoy en el formulario para publicar un favor
 //        Undefined. Implement with the following snippet:
-
-         Given('estoy en el formulario para publicar un favor', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
 
 //    ? When selecciono varias categorías para el favor
 //        Undefined. Implement with the following snippet:
@@ -151,20 +125,9 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //    ? Then la aplicación no me permite publicar el favor
 //        Undefined. Implement with the following snippet:
 
-         Then('la aplicación no me permite publicar el favor', function () { 
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
-
 // 7) Scenario: En el que se muestra la publicación # features\publicarFavor.feature:34
 //    ? Given estoy en el feed de la aplicación
 //        Undefined. Implement with the following snippet:
-
-         Given('estoy en el feed de la aplicación', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
 
 //    ? When llené el formulario correctamente
 //        Undefined. Implement with the following snippet:
@@ -187,11 +150,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //    ? Given estoy en el feed de la aplicación
 //        Undefined. Implement with the following snippet:
 
-         Given('estoy en el feed de la aplicación', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
 //    ? When publico mi favor en la aplicación y es la más reciente
 //        Undefined. Implement with the following snippet:
 
@@ -212,11 +170,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 // 9) Scenario: En el que el favor publicado no es el más reciente # features\publicarFavor.feature:44
 //    ? Given estoy en el feed de la aplicación
 //        Undefined. Implement with the following snippet:
-
-         Given('estoy en el feed de la aplicación', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
 
 //    ? When publiqué mi favor hace algún tiempo y no es la más reciente        
 //        Undefined. Implement with the following snippet:
@@ -239,11 +192,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 //     ? Given estoy en el feed de la aplicación
 //         Undefined. Implement with the following snippet:
 
-          Given('estoy en el feed de la aplicación', function () {
-            // Write code here that turns the phrase above into concrete actions
-            return 'pending';
-          });
-
     // ? When publiqué un favor que incumple las normas de conducta
     //     Undefined. Implement with the following snippet:
 
@@ -264,11 +212,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 // 11) Scenario: En el que el favor cumple con las normas de conducta # features\publicarFavor.feature:54
 //     ? Given estoy en el feed de la aplicación
 //         Undefined. Implement with the following snippet:
-
-          Given('estoy en el feed de la aplicación', function () {
-            // Write code here that turns the phrase above into concrete actions
-            return 'pending';
-          });
 
     // ? When publiqué un favor que cumple con las normas de conducta
     //     Undefined. Implement with the following snippet:

@@ -26,7 +26,7 @@ Feature: Como un usuario registrado, quiero poder publicar un favor en el muro p
     When no selecciono una categoría
     Then la aplicación no me permite publicar el favor
 
-  Scenario: En el que seleccion varias categorías
+  Scenario: En el que selecciono varias categorías
     Given estoy en el formulario para publicar un favor
     When selecciono varias categorías para el favor
     Then la aplicación no me permite publicar el favor
